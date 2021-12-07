@@ -14,3 +14,8 @@ def list_avg(vals):
         
     avg = total/len(vals)
     return avg
+
+def load_sample():
+    filename = 'test.csv'
+    load(filename)
+    return None

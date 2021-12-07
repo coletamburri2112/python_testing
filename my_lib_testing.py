@@ -28,6 +28,10 @@ class TestLib(unittest.TestCase):
         res = my_lib.list_avg([])
         self.assertIsNone(res)
         
+    def test_mylib_load(self):
+        res = my_lib.load_sample()
+        self.assertIsNone(res)
+        
     def test_list_avg_const(self):
         print("Running test_list_avg_const...")
         res = my_lib.list_avg([5, 5, 5, 5, 5, 5])
