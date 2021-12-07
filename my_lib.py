@@ -17,5 +17,5 @@ def list_avg(vals):
 
 def load_sample():
     filename = 'test.csv'
-    load(filename)
+    open(filename)
     return None
